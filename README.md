@@ -4,7 +4,9 @@ NoiseLevelDetection
 An iPhone app for sending noise level at the current location to an ArcGIS GeoEvent Processor for Server via a websocket. 
 
 ## Features
-* Swipe a top map/layer to see the bottom map/layer to visually compare the differences between two maps/imagery layers. 
+* detecting noise level and displaying it in a graph and a label continuously.
+* sending the noise level to an ArcGIS GeoEvent Processor for Server via a websocket
+
 
 ## Requirements
 XCode 
