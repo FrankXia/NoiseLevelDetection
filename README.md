@@ -1,7 +1,7 @@
 NoiseLevelDetection
 ===================
 
-An iPad demo for swiping a top layer to see the bottom one. 
+An iPhone app for sending noise level at the current location to an ArcGIS GeoEvent Processor for Server via a websocket. 
 
 ## Features
 * Swipe a top map/layer to see the bottom map/layer to visually compare the differences between two maps/imagery layers. 
