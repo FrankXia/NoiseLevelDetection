@@ -1,5 +1,5 @@
-NoiseLevelDetection
-===================
+# NoiseLevelDetection
+
 
 An iPhone app for sending noise level at the current location to an ArcGIS GeoEvent Processor for Server via a websocket. 
 
@@ -7,6 +7,8 @@ An iPhone app for sending noise level at the current location to an ArcGIS GeoEv
 * detecting noise level and displaying it in a graph and a label continuously.
 * sending the noise level to an ArcGIS GeoEvent Processor for Server via a websocket
 
+## Instructions
+Change ArcGIS GeoEvent Processor to your own installation of the server. 
 
 ## Requirements
 XCode 
@@ -20,7 +22,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 
 ## Contributing
 
-Anyone and everyone is welcome to contribute. 
+Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing). 
 
 ## Licensing
 Copyright 2013 Esri
