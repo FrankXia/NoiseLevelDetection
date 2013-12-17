@@ -66,7 +66,7 @@
     
     self.settingContainer.scrollEnabled = YES;
     
-    CGRect frame = CGRectMake(0, 0, 320, self.view.frame.size.height-44);
+    CGRect frame = CGRectMake(0, 66, 320, self.view.frame.size.height-66);
     self.settingContainer.frame = frame;
     self.settingContainer.contentSize = CGSizeMake(320, 548);
     

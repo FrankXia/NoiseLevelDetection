@@ -95,6 +95,10 @@
 	self.recorder = [[AVAudioRecorder alloc] initWithURL:url settings:settings error:&error];
     
 	if (self.recorder) {
+        AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+        [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+        [audioSession setActive:YES error:nil];
+        
 		[self.recorder prepareToRecord];
 		self.recorder.meteringEnabled = YES;
 	} else
