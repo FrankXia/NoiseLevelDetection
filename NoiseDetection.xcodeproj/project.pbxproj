@@ -441,8 +441,8 @@
 		01B72C1C1760CE1500F1A65A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoiseDetection/NoiseDetection-Prefix.pch";
@@ -455,8 +455,8 @@
 					ArcGIS,
 				);
 				PRODUCT_NAME = NoiseLevel;
-				PROVISIONING_PROFILE = "C8ADA77D-F21B-4D1C-88FD-98E62C61F52B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C8ADA77D-F21B-4D1C-88FD-98E62C61F52B";
+				PROVISIONING_PROFILE = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,8 +465,8 @@
 		01B72C1D1760CE1500F1A65A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoiseDetection/NoiseDetection-Prefix.pch";
@@ -479,8 +479,8 @@
 					ArcGIS,
 				);
 				PRODUCT_NAME = NoiseLevel;
-				PROVISIONING_PROFILE = "C8ADA77D-F21B-4D1C-88FD-98E62C61F52B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C8ADA77D-F21B-4D1C-88FD-98E62C61F52B";
+				PROVISIONING_PROFILE = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
